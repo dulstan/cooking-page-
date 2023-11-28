@@ -1,0 +1,69 @@
+/* Recipe.css */
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.recipe-text {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+
+
+.recipe-content {
+    display: flex;
+    flex-direction: row;
+    /* Horisontell placering */
+    align-items: center;
+    /* Centrera vertikalt */
+    justify-content: center;
+    /* Centrera horisontellt */
+    text-align: left;
+}
+
+
+video {
+    max-height: 500px;
+}
+
+.styled-text {
+    line-height: 25px;
+    font-size: 16px;
+    /* Ändra storleken efter behov */
+    color: #333;
+    /* Ändra färgen efter behov */
+}
+
+.accessible-button {
+    min-width: 180px;
+    background-color: #0073e6; /* Färg på bakgrunden */
+    color: #fff; /* Textfärg */
+    border: 2px solid #0073e6; /* Kantdetaljer */
+    border-radius: 4px; /* Runda hörn */
+    padding: 10px 20px; /* Storlek och padding */
+    font-size: 16px; /* Textstorlek */
+    cursor: pointer; /* Pekande handmarkör */
+    transition: background-color 0.3s, color 0.3s; /* Smidig övergång för effekter */
+  }
+  
+  /* Hover-effekt */
+  .accessible-button:hover {
+    background-color: #005bbd; /* Ändra bakgrundsfärg vid hovring */
+    color: #fff; /* Ändra textfärg vid hovring */
+  }
+  
+  /* Fokus-effekt för bättre tillgänglighet */
+  .accessible-button:focus {
+    outline: none; /* Ta bort standard fokus-ram */
+    box-shadow: 0 0 0 3px rgba(0, 115, 230, 0.3); /* Anpassad fokus-ram */
+  }
